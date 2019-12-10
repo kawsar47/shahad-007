@@ -1,30 +1,53 @@
 <template>
-      <!--slider area-->
+  <div class="container">
+        <carousel :items="1">
 
-  <div class="slider-area">
-    <div class="container">
-      <div class="slider-active owl-carousel">
-     <img src="https://placeimg.com/200/200/any?1">
+                  <div class="single-slider" style="background-image:url(./static/assets/img/slider/slider1.jpg)"> 
+                        <div class="slider-text">
+                          <h2>Cherner <span>Armchair</span></h2>
+                          <p>The 1958 moulded plywood armchair by Norman Cherner.</p>
+                          <a href="#">View now</a>
 
-    <img src="https://placeimg.com/200/200/any?2">
+                        </div>
 
-    <img src="https://placeimg.com/200/200/any?3">
+                      </div>
 
-    <img src="https://placeimg.com/200/200/any?4">
+              
+                            <div class="single-slider" style="background-image:url(./static/assets/img/slider/slider2.jpg)"> 
+                              <div class="slider-text">
+                                <h2>Cherner <span>Armchair</span></h2>
+                                <p>The 1958 moulded plywood armchair by Norman Cherner.</p>
+                                <a href="#">View now</a>
 
-      </div>
+                              </div>
 
-    </div>
+                            </div>
+                    
+                                  <div class="single-slider" style="background-image:url(./static/assets/img/slider/slider3.jpg)"> 
+                                    <div class="slider-text">
+                                      <h2>Cherner <span>Armchair</span></h2>
+                                      <p>The 1958 moulded plywood armchair by Norman Cherner.</p>
+                                      <a href="#">View now</a>
 
+                                    </div>
+
+                                  </div>
+                    
+
+        </carousel>
   </div>
-
 </template>
-<script>
-export default {
-    name:'Slider'
-    
-}
-</script>
-<style scoped>
 
-</style>
+<script>
+
+   
+  import carousel from 'vue-owl-carousel'
+	export default {
+    name: 'Slider',
+    components: { carousel },
+
+  }
+
+   
+</script>
+ 

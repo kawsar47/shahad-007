@@ -314,7 +314,7 @@
 
 <script>
 export default {
-  
+
 }
 </script>
 

@@ -106,7 +106,7 @@ $('.message a').click(function(){
 
     //select
 
-    $('select').niceSelect();
+  
 
 
 
